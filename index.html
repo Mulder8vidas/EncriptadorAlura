@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c90d88726.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="medias.css">
+</head>
+<body>
+
+
+
+
+<div class="main">
+    <div class="form-box">
+        <img src="logo.png" alt="logo" width="120px">
+        <form class="formu" action="">
+
+            <textarea class="text-input" type="text" name="input-texto" id="input-texto"
+                      placeholder="Ingrese el texto aqui"></textarea>
+            <div class="mensaje">
+                <i class="fas fa-exclamation-circle"></i>
+                <label for="input-texto">Solo letras minúsculas, sin acento</label>
+            </div>
+
+            <div class="btnes">
+                <button  disabled class="btn1" type="button" id="btn-encriptar"  >Encriptar!</button>
+                <button  disabled class="btn2" type="button"  id="btn-desencriptar"  >Desencriptar!</button>
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="msg-box">
+        <div class="area">
+
+            <textarea class="text-input-salida" type="text" id="msg"></textarea>
+
+            <div class="over" id="over">
+                <div class="fotito" id="fotito">
+                    <img src="Muñeco.png" alt="">
+                    <h1>Ningún mensaje fue <br>encontrado</h1>
+                    <h2>Ingrese el texto que desees encriptar o <br>desencriptar</h2>
+                </div>
+
+            </div>
+            <input class="btn-cop" type="button" value="Copiar" id="btn-copy">
+
+        </div>
+
+    </div>
+</div>
+<section class="modal" id="modal">
+    <div class="modal-container">
+        <div class="mensaje_modal">
+        <h2>Texto copiado</h2>
+        <i class="fas fa-copy"></i>
+        </div>
+        <a href="#" class="modal_close" id="modalClose">Cerrar Modal</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+<script src="copiarTxt.js"></script>
+
+</body>
+
+
+</html>

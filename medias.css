@@ -1,0 +1,62 @@
+
+@media (max-width: 980px) {
+
+    .main{
+
+        display: block;
+
+    }
+    .msg-box{
+        width: 85%;
+
+    }
+    .area{
+        height: 150px;
+    }
+    #msg{
+        height: 150px;
+    }
+
+    .form-box{
+        width: 85%;
+
+    }
+    .fotito img{
+        display: none;
+    }
+    .fotito{
+        margin-top: 10%;
+    }
+    #input-texto{
+        height: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btnes{
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+
+    }
+    .btn1{
+        width: 400px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .btn2{
+        margin-top: 5%;
+        width: 400px;
+        height: 60px;
+        font-size: 16px;
+
+    }
+    .fotito h1{
+
+        font-size: 25px;
+    }
+    .fotito h2{
+
+        font-size: 14px;
+    }
+}
